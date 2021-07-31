@@ -34,7 +34,7 @@ public class RegisterActivity extends AppCompatActivity {
         edDescripntion=findViewById(R.id.etDescription);
         btRegister=findViewById(R.id.btRegister);
         ck=findViewById(R.id.ck);
-        String[] genders= {"Male","Female","Unknow"};
+        String[] genders= {"Gripe","Gripe1","Gripe2"};
         spinner=findViewById(R.id.spGender);
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,genders);
         spinner.setAdapter(adapter);
